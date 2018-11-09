@@ -67,7 +67,7 @@ Test Case 2
 
 No person can bribe more than two people, so its not possible to achieve the input state.
 
-
+```c++
 void minimumBribes(vector<int> A) 
 {
     int n = A.size();
@@ -98,3 +98,4 @@ void minimumBribes(vector<int> A)
     printf("%d\n",cnt);
     return;
 }
+```
